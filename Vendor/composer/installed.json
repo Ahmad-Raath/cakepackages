@@ -260,5 +260,49 @@
             "debug",
             "kit"
         ]
+    },
+    {
+        "name": "cakedc/tags",
+        "version": "1.5.1",
+        "version_normalized": "1.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CakeDC/tags.git",
+            "reference": "fba681438f7b76aa22bdcbf429e24950b3c00001"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CakeDC/tags/zipball/fba681438f7b76aa22bdcbf429e24950b3c00001",
+            "reference": "fba681438f7b76aa22bdcbf429e24950b3c00001",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2014-01-27 00:21:22",
+        "type": "cakephp-plugin",
+        "extra": {
+            "installer-name": "Tags"
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cake Development Corporation",
+                "email": "team@cakedc.com",
+                "homepage": "http://cakedc.com"
+            }
+        ],
+        "description": "Tags plugin for CakePHP.",
+        "homepage": "http://github.com/CakeDC/tags",
+        "keywords": [
+            "cakephp",
+            "plugin",
+            "tags"
+        ]
     }
 ]

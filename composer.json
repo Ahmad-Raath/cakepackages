@@ -13,7 +13,8 @@
     "rgrove/jsmin-php": "*",
 
     "markstory/asset_compress": "v0.12",
-    "cakephp/debug_kit" : "2.2.*"
+    "cakephp/debug_kit" : "2.2.*",
+    "cakedc/tags": "1.5.1"
   },
   "config": {
     "preferred-install": "dist",

@@ -3,8 +3,50 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "17a058e2110e42aef1edfb9e7a944aea",
+    "hash": "fb0f3909c7637e6f41b59fd73fabff75",
     "packages": [
+        {
+            "name": "cakedc/tags",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CakeDC/tags.git",
+                "reference": "fba681438f7b76aa22bdcbf429e24950b3c00001"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CakeDC/tags/zipball/fba681438f7b76aa22bdcbf429e24950b3c00001",
+                "reference": "fba681438f7b76aa22bdcbf429e24950b3c00001",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "installer-name": "Tags"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cake Development Corporation",
+                    "email": "team@cakedc.com",
+                    "homepage": "http://cakedc.com"
+                }
+            ],
+            "description": "Tags plugin for CakePHP.",
+            "homepage": "http://github.com/CakeDC/tags",
+            "keywords": [
+                "cakephp",
+                "plugin",
+                "tags"
+            ],
+            "time": "2014-01-27 00:21:22"
+        },
         {
             "name": "cakephp/cakephp",
             "version": "2.4.6",
