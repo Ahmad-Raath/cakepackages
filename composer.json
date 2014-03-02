@@ -10,7 +10,10 @@
     "composer/installers" : "~1.0",
     "cakephp/cakephp": "2.4.6",
     "cssmin/cssmin": "*",
-    "rgrove/jsmin-php": "*"
+    "rgrove/jsmin-php": "*",
+
+    "markstory/asset_compress": "v0.12",
+    "cakephp/debug_kit" : "2.2.*"
   },
   "config": {
     "preferred-install": "source",
