@@ -66,15 +66,4 @@
       <li><?php echo $this->Resource->package('FriendsOfCake', 'app-template'); ?></li>
     </ul>
   </article>
-
-  <article class="popular-maintainers">
-    <h3 class="section-heading">Popular Maintainers</h3>
-    <ul class="popular-list">
-      <li><?php echo $this->Resource->maintainer('CakePHP'); ?></li>
-      <li><?php echo $this->Resource->maintainer('CakeDC'); ?></li>
-      <li><?php echo $this->Resource->maintainer('lorenzo'); ?></li>
-      <li><?php echo $this->Resource->maintainer('markstory'); ?></li>
-      <li><?php echo $this->Resource->maintainer('josegonzalez'); ?></li>
-    </ul>
-  </article>
 </section>
