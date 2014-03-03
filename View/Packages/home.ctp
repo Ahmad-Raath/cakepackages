@@ -9,7 +9,7 @@
   </p>
 </section>
 
-<section class="contribute">
+<!-- <section class="contribute">
   <div class="bubble-top bubble-border">
     <h2 class="header">Use and Share Open Source CakePHP Code</h2>
   </div>
@@ -27,7 +27,7 @@
       Follow Repositories
     </article>
   </div>
-</section>
+</section> -->
 
 <section class="search">
   <h2>Search For Packages</h2>
