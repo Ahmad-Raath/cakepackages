@@ -81,6 +81,7 @@ class AppController extends Controller {
  **/
 	protected $_originalAction = null;
 
+	public $layout = 'bootstrap';
 /**
  * Object constructor - Adds the Debugkit panel if in development mode
  *

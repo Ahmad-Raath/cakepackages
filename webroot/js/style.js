@@ -6,7 +6,7 @@
 	});
 
 	if ($('.packages-index').length) {
-		$('.next-page a').live('click', function (e) {
+		$(document).on("click", ".next-page a", function (e) {
 			e.preventDefault();
 			var el = $(e.target);
 
@@ -59,7 +59,7 @@
 	}
 
 	// Form processing
-	$('.PackageSuggestForm').live('submit', function (e) {
+	$(document).on("submit", ".PackageSuggestForm", function (e) {
 		e.preventDefault();
 		$(this).cakephpAjax(e, {
 			selector: '.' + $(e.target).attr('class'),

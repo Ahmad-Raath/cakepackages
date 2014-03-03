@@ -1,0 +1,123 @@
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.navbar {
+    border-bottom: 1px solid #000;
+    background: #3B3B3B;
+    background: -moz-linear-gradient(top, #3B3B3B 0%, #2b2b2b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3B3B3B), color-stop(100%,#2b2b2b));
+    height: 29px;
+}
+
+.navbar-brand {
+    background: transparent url('http://plugins.cakephp.org/cache_css/main-link.png') 0px 4px no-repeat;
+    margin-left: 0 !important;
+}
+.navbar-sm { border-bottom:none; }
+.navbar-sm .nav.pull-right {margin-left: 10px;margin-right: 0;}
+.navbar-sm { min-height:28px; }
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-sm .navbar-nav { font-size: 12px}
+.navbar-sm .navbar-brand { color: #fff; padding: 6px 10px 8px 30px; font-size: 12px; line-height: 18px; }
+.navbar-sm .navbar-nav > li > a {  padding-top: 5px; padding-bottom: 4px; line-height: 20px; }
+
+.packages-home .highlight,
+.packages-index .highlight {
+    position: relative;
+}
+.packages-home .highlight p,
+.packages-index .highlight p {
+    float: left;
+    margin-bottom: 0;
+    margin-right: 240px;
+}
+.packages-home .highlight .description,
+.packages-index .highlight .description {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+}
+.packages-home .highlight .title,
+.packages-index .highlight .title {
+    font-size: 22px;
+}
+.tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px;
+    background-color: #FE790F;
+    font-size: 11px;
+    text-shadow: none;
+    color: #FFF;
+    line-height: 11px;
+    border-bottom-right-radius: 6px;
+}
+.packages-home .highlight,
+.packages-view .summary {
+    background: #EEE;
+    border-top: 1px solid #FCFCFC;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 30px 0;
+    min-height: 40px;
+    overflow: hidden;
+    padding: 30px;
+    text-shadow: 0 1px 1px white;
+    -webkit-box-shadow: inset 0 0px 42px 0px rgba( 100, 100, 100, 0.1 );
+    -khtml-box-shadow: inset 0 0px 42px 0px rgba( 100, 100, 100, 0.1 );
+    -moz-box-shadow: inset 0 0px 42px 0px rgba( 100, 100, 100, 0.1 );
+    -o-box-shadow: inset 0 0px 42px 0px rgba( 100, 100, 100, 0.1 );
+    box-shadow: inset 0 0px 42px 0px rgba( 100, 100, 100, 0.1 );
+}
+.packages-home .highlight p,
+.packages-view .summary p {
+    float: left;
+    margin-bottom: 0;
+    margin-right: 240px;
+}
+.packages-home .highlight p.button {
+    background: #D83137;
+}
+.packages-view .summary p.button {
+    background: #D54E21;
+}
+.packages-home .highlight p.button,
+.packages-view .summary p.button {
+    border: none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    text-align: center;
+    width: 182px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    behavior: url(/css/border-radius.htc);
+    -khtml-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.packages-home .highlight p.button a,
+.packages-view .summary p.button a {
+    color: white;
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+    padding: 8px 0;
+}
