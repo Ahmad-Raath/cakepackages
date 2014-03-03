@@ -32,21 +32,25 @@
 <section class="search">
   <h2>Search For Packages</h2>
   <div>
-    <?php echo $this->Form->create(false, array('action' => 'index'));?>
-      <?php
-        echo $this->Form->input('query', array(
-          'class' => 'query',
-          'div' => false,
-          'label' => false,
-          'placeholder' => __('search (ex. debug watchers:5 forks:8 has:component)')
-        ));
-      ?>
-      <?php
-        echo $this->Form->button(__('Search'), array(
-          'class' => 'button big icon search',
-          'div' => false,
-        ));
-      ?>
+    <?php echo $this->Form->create(false, array('action' => 'index', 'class' => 'form-horizontal'));?>
+      <div class="form-group">
+        <div class="col-sm-11">
+          <?php
+            echo $this->Form->input('query', array(
+              'class' => 'query form-control',
+              'div' => false,
+              'label' => false,
+              'placeholder' => __('search (ex. debug watchers:5 forks:8 has:component)')
+            ));
+          ?>
+        </div>
+        <?php
+          echo $this->Form->button(__('Search'), array(
+            'class' => 'icon search btn btn-default col-sm-1',
+            'div' => false,
+          ));
+        ?>
+      </div>
     <?php echo $this->Form->end();?>
   </div>
 </section>
